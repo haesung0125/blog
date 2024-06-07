@@ -110,7 +110,7 @@ author:
 footer_links:
   - title: Google scholar
     url: https://scholar.google.com/citations?user=P9q8_R4AAAAJ
-    icon: fab fa-google-scholar
+    icon: fa-brands fa-google-scholar
   - title: Instagram
     url: https://www.instagram.com/haesung0125
     icon: fab fa-instagram
