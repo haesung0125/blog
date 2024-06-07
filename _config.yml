@@ -96,6 +96,9 @@ author:
   email: sng1225@skku.edu
   twitter:
   links:
+    - title: Google scholar
+      url: https://scholar.google.com/citations?user=P9q8_R4AAAAJ
+      icon: ai ai-google-scholar
     - title: Instagram
       url: https://www.instagram.com/haesung0125
       icon: fab fa-instagram
