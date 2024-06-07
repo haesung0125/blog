@@ -34,7 +34,7 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: "G-TYGET1C9TN"
+google_analytics: #
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
@@ -105,6 +105,9 @@ author:
 
 # Footer Links
 footer_links:
+  - title: Google scholar
+    url: https://scholar.google.com/citations?user=P9q8_R4AAAAJ
+    icon: ai ai-google-scholar
   - title: Instagram
     url: https://www.instagram.com/haesung0125
     icon: fab fa-instagram
