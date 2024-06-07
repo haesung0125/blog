@@ -1,16 +1,15 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
+Hae Seong Lee:
+  name: Hae Seong Lee
+  picture: "/images/profile.jpg"
+  email: sng1225@skku.edu
+  twitter:
   links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+    - title: Instagram
+      url: https://www.instagram.com/haesung0125
+      icon: fab fa-instagram
+    - title: Youtube
+      url: https://www.youtube.com/@leehaeseong4899
+      icon: fab fa-youtube
