@@ -19,9 +19,9 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Hae Seong Lee"
 description: "Random thoughts and experiences to share"
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://haesung0125.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+baseurl: "/blog"
+url: "https://haesung0125.github.io"
+logo: "/images/profile.jpg"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
@@ -91,17 +91,26 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: Hae Seong Lee
   picture:
-  email:
+  email: sng1225@skku.edu
   twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: Instagram
+      url: https://www.instagram.com/haesung0125
+      icon: fab fa-instagram
+    - title: Youtube
+      url: https://www.youtube.com/@leehaeseong4899
+      icon: fab fa-youtube
 
 # Footer Links
 footer_links:
+  - title: Instagram
+    url: https://www.instagram.com/haesung0125
+    icon: fab fa-instagram
+  - title: Youtube
+    url: https://www.youtube.com/@leehaeseong4899
+    icon: fab fa-youtube
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
