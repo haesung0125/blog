@@ -1,5 +1,5 @@
 ---
-layout: "page"
+layout: "post"
 title: "Just for testing2"
 author: Hae Seong Lee
 categories: 
