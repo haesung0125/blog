@@ -36,7 +36,7 @@ In order to revolutionize our “Hello, world!” program, we need a Gemini API 
 Get the Gemini API key
 -------
 
-We can get the Gemini API key pretty easily. Access the Google AI Studio with this link. You will probably be taken to the welcome page. Be calm, and click the “Get started” button. After logging in, you will find the Get the API key at the bottom left of the page. Then you can make an API key there.
+We can get the Gemini API key pretty easily. Access the [Google AI Studio](https://aistudio.google.com) with this link. You will probably be taken to the welcome page. Be calm, and click the “Get started” button. After logging in, you will find the Get the API key at the bottom left of the page. Then you can make an API key there.
 
 Install and set up the google-genai library
 --------
@@ -98,4 +98,4 @@ If we can use Gemini in a Python script, what else could we do? What about letti
 Reference
 =====
 
-1. Gemini API docs
+1. [Gemini API docs](https://ai.google.dev/gemini-api/docs)
