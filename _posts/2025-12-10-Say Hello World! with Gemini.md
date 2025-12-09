@@ -16,7 +16,7 @@ In my first post, I would like to share my experience of making an AI-powered Py
 Goodbye, old world!
 ==========
 
-A typical “Hello, world!” program looks like this.
+Although there is some changes in a statement, a typical “Hello, world!” program looks like this.
 
 ```python
 def main():
@@ -26,7 +26,7 @@ if(__name__=="__main__"):
     main()
 ```
 
-We have the main function whose only job is to print “Hello, world!”. Then we added the if statement that calls the main function when the script is executed as the main program. How can we transform this script into the AI era?
+We have the **main** function whose only job is to print “Goodbye, old world!”. Then we added the **if** statement that calls the **main** function when the script is executed. How can we transform this script into the AI era?
 
 Set up Gemini in Python
 ========
@@ -50,43 +50,43 @@ pip3 install google-genai
 Hello, new world!
 =======
 
-Now let’s write the “Hello, world!” program that is powered by Gemini. Our program looks a little bit more complicated than the previous one.
+Now let’s write the “Hello, world!” program that is powered by Gemini. Our program, **helloNewWorld.py** looks a little bit more complicated than the previous one.
 
 ```python
 from google import genai
 
 def main():
     client=genai.Client(api_key="#put your Gemini API key here.")
-    response=client.models.generate_content(model="gemini-2.5-flash",contents="Say Hello, world!")
+    response=client.models.generate_content(model="gemini-2.5-flash",contents="Say Hello, new world!")
     print(response.text)
 
 if(__name__=="__main__"):
     main()
 ```
 
-In the first line of the script, we import the google-genai library, which enables us to access Gemini in Python. Then we make a Client class object with an api_key in the first line of the main function. If you prefer not to put confidential information in the script, you can pass the api key with the environment variable “GEMINI_API_KEY” in your shell.
+In the first line of the script, we import the **google-genai** library, which enables us to access Gemini in Python. Then we make a **Client** class instance with an **api_key** in the first line of the **main** function. If you prefer not to put confidential information in the script, you can pass the api key with the environment variable **GEMINI_API_KEY** in your shell.
 
 ```bash
 export GEMINI_API_KEY="#Put your Gemini API key here."
 ```
 
-Then you can make a Client class instance without the api_key parameter in the python script.
+Then you can make a Client class instance without the **api_key** parameter in the python script.
 
 ```python
 client=genai.Client()
 ```
 
-After a Client instance is made, we call the generate_content method, which sends a prompt to Gemini and gets its response. The method should provided with model parameter that selects the specific Gemini model, and contents parameter that will be conveyed to Gemini as a prompt. Of course, our prompt is “Say Hello, world!”. Gemini is a trustworthy buddy. If I tell it to say “Hello, world!”, it will say so.
+After a **Client** class instance is made, we call the **generate_content** method, which sends a prompt to Gemini and gets its response. The method should provided with **model** parameter that selects the specific Gemini model, and **contents** parameter that will be conveyed to Gemini as a prompt. Of course, our prompt is “Say Hello, new world!”. Gemini is a trustworthy buddy. If I tell it to say “Hello, new world!”, it will say so.
 
-The response of Gemini is stored in the response instance, and its contents can be accessed by response.text. Finally, we print response.text.
+The response of Gemini is stored in the **response** instance, and its contents can be accessed by **response.text**. Finally, we print **response.text**.
 
 Let’s find out if our program works.
 
 ```bash
-python3 helloWorld.py
+python3 helloNewWorld.py
 ```
 
-We can see that our program really prints “Hello, world!”
+We can see that our program really prints “Hello, new world!”
 
 Now we have a bold “Hello, world!” program that uses AI. The only problem is that our script always needs an internet connection and produces much more carbon than the older program.
 
