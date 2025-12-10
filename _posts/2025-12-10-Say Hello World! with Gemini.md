@@ -38,7 +38,7 @@ Get the Gemini API key
 
 We can get the Gemini API key pretty easily. Access the [Google AI Studio](https://aistudio.google.com) with this link. You will probably be taken to the welcome page. Be calm, and click the “Get started” button. After logging in, you will find the Get the API key at the bottom left of the page. Then you can make an API key there.
 
-Install and set up the google-genai library
+Install the google-genai library
 --------
 
 The google-genai is a Python library that enables us to use Gemini features in Python. Assuming that you have Python installed in your environment, a simple pip (or pip3) will work.
