@@ -5,9 +5,10 @@ author: Hae Seong Lee
 categories: 
  - Random thoughts
 tags:
- 
+  - Science
 date: 2025-12-16
 ---
+
 My Ph.D. supervisor was once an organizer of a course named “Natural science and humanity studies”. The purpose of this course was to provide undergraduates in the college of natural sciences with humanities perspectives, followed by rich discussions.
 
 I attended the class sometimes as an observer when the topic of the lecture seemed interesting to me. One day, a famous question of “Is science an invention or a discovery?” was a topic for discussion. Although I didn't participate in the discussion, my stance was clear.
