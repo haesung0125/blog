@@ -6,7 +6,7 @@ categories:
  - Random thoughts
 tags:
   - Science
-date: 2025-12-16
+date: 2025-12-15
 ---
 
 My Ph.D. supervisor was once an organizer of a course named “Natural science and humanity studies”. The purpose of this course was to provide undergraduates in the college of natural sciences with humanities perspectives, followed by rich discussions.
